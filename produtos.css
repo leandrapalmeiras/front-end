@@ -64,3 +64,14 @@ nav a:hover{
 .produtos li:hover h2{
     font-size: 34px;
 }
+footer{
+    text-align: center;
+    background: #cccccc;
+    padding: 40px;
+}
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+  
