@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,27 +22,37 @@
         </div>
     </header>
     <main>
-        <form> 
+        <form>
             <label for="nomesobrenome">Nome e sobrenome</label>
             <input type="text" id="nomesobrenome" class="input-padrao">
 
-            <label for="email">Nome e sobrenome</label>
+            <label for="email">Email</label>
             <input type="text" id="email" class="input-padrao">
 
-            <label for="telefone">Nome e sobrenome</label>
+            <label for="telefone">Telefone</label>
             <input type="text" id="telefone" class="input-padrao">
-   
-            <labelfor="mensagem">mensagem</label>
-            <textarea cols="70" rows="10"  id="mensagem" class="input-padrao"></textarea>
-            <input type="submit" value="Enviar formulario"
+
+            <labelfor="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+            <div> 
+                <p> Como prefere o nosso contato?</p>
+                <label for="radio-email"><input type="radio" name = "contato" value="email" id="radio-email">Email</label>
+                <label for="radio-telefone"><input type="radio" name = "contato" value="telefone" id="radio-telefone">Telefone</label>
+                <label for="radio-whatsapp"><input type="radio" name = "contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+                
+            </div>
+            <input type="submit" value="Enviar formulário">
+
         </form>
     </main>
 
 
     <footer>
         <img src="img/logo-branco.png" alt="">
-        <p class="copyright">&copy; Copyrigth Barbearia Alura - 2025</p>
+        <p class="copyright">&copy; Copyright Barbearia Alura - 2025</p>
     </footer>
+
     
 </body>
 </html>
