@@ -148,5 +148,9 @@ td, th{
 }
 
 .principal p{
-    
+    margin: 0 0 lem;
+}
+
+.principal strong{
+    font-weight: bold;
 }
