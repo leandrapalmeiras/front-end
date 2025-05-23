@@ -166,5 +166,15 @@ td, th{
     margin: 0 20px 20px 0;
 }
 .imagembeneficios{
-    width:60%;
+    width: 560%;
+}
+
+.mapa p{
+    margin0 0 2em;
+    text-aling: center;
+}
+
+.video{
+    width: 560px;
+    margin: lem auto;
 }
